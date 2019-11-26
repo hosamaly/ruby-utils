@@ -14,5 +14,6 @@ Gem::Specification.new do |spec|
   spec.test_files = Dir['spec/**/*']
 
   spec.add_development_dependency 'faker', '~> 2.7'
+  spec.add_development_dependency 'rake' # for Travis CI build
   spec.add_development_dependency 'rspec', '~> 3.9'
 end

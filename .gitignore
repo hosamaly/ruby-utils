@@ -1,3 +1,6 @@
+# Force Travis CI to use the latest gem versions in every build
+Gemfile.lock
+
 *.gem
 *.rbc
 /.config
